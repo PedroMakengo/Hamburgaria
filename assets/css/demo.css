@@ -1,0 +1,134 @@
+body {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.625;
+    color: #666;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    background: #F3EFE3;
+}
+li {
+    list-style: none;
+}
+.container {
+    width: 80% !important;
+}
+/* Menu */
+.menu a {
+    color: #fff !important;
+}
+/* Fundo */
+.fundo {
+    background-size: 100%;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-image:  -webkit-gradient(linear, right top, left bottom, from(#1b1b1b8a), to(#1b1b1b8a)), url(https://i0.statig.com.br/bancodeimagens/3a/8q/1u/3a8q1up0jcoye9viuabkbb8f4.jpg);
+    height: 560px;
+}
+.fundo .container {
+    position: relative;
+    top: 200px;
+}
+
+/* Hamburguer Menu */
+.menu-hamburguer {
+    position: relative;
+    top: 40px;
+}
+.photo-1 {
+    background-image: url(https://uploads.metropoles.com/wp-content/uploads/2019/12/12150529/istock-617759204-1050x700.jpg);
+    background-position: center;
+    background-size: 100%;
+    height: 250px;
+}
+.photo-2 {
+    background-image: url(https://respostas.sebrae.com.br/wp-content/uploads/2020/06/como_fazer_hamburguer_caseiro.jpg);
+    background-position: center;
+    background-size: 100%;
+    height: 250px;
+}
+/* É a foto principal do nosso painel de preçario */
+.photo-3 {
+    background-image: -webkit-gradient(linear, right top, left bottom, from(#1111118a), to(#1111118a)), url(https://3.bp.blogspot.com/-HNAHK_pYHmE/XOVe8Vz-D6I/AAAAAAAAPCE/Kx_w1K7GuLkOpuc9cz2nTByGgPBpsUKXgCLcBGAs/s1600/HAMBURGUER_ORIGEM_HISTORIAS_01_FIM.jpg);
+    background-size: 120%;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 570px;
+}
+.photo-3-bottom-120 {
+    position: relative;
+    top: 120px;
+}
+.photo-3-bottom-320 {
+    position: relative;
+    top: 250px;
+}
+/* É a foto principal do nosso painel de preçario */
+.preco {
+    position: relative;
+    top: -40px;
+}
+
+
+/* cardapio-promocional */
+.cardapio-promocional {
+   
+    background-size: 100%;
+    height:auto;
+    background-image: -webkit-gradient(linear, right top, left bottom, from(#1b1b1b8a), to(#1b1b1b8a)),url(../img/c23.jpg);
+}
+.cardapio-1 {
+    background-image: url(https://assentopublico.com.br/wp-content/uploads/2019/05/dia-do-hamburguer-ribeiroa-preto.jpg);
+    background-position: center;
+    background-size: 100%;
+    height: 300px;
+}
+.cardapio-2 {
+    background-image: url(https://ohamburguerperfeito.com.br/wp-content/uploads/2019/05/10-1370x912.jpeg);
+    background-position: center;
+    background-size: 100%;
+    height: 300px;
+}
+.cardapio-3 {
+    background-image: url(https://www.pjf.mg.gov.br/noticias/arquivo/2010_jf_burguer_fest_144447.jpg);
+    background-position: center;
+    background-size: 100%;
+    height:300px;
+}
+.cardapio-4 {
+    background-image: url(https://www.pjf.mg.gov.br/noticias/arquivo/2010_jf_burguer_fest_144447.jpg);
+    background-position: center;
+    background-size: 150%;
+    height: 300px;
+}
+
+
+/* leve-para-casa */
+.leve-para-casa {
+    background-size: 100%;
+    height: 500px;
+}
+
+/* Contactos */
+.contactos {
+    background: -webkit-gradient(linear, right top, left bottom, from(#1b1b1b8a), to(#1b1b1b8a)), url(https://i0.statig.com.br/bancodeimagens/3a/8q/1u/3a8q1up0jcoye9viuabkbb8f4.jpg);
+}
+
+
+
+
+
+
+
+
+
+
+/* Color */
+.bg-padrao {
+    background: #D3574F;
+}
+.bg-padrao-2 {
+    background: #262d35 !important;
+}

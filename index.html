@@ -1,0 +1,442 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hamburgaria</title>
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <!-- Fontawesome -->
+    <link rel="stylesheet" href="assets/css/font-face.css">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+        integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+
+    <!-- My Style -->
+    <link rel="stylesheet" href="assets/css/demo.css">
+</head>
+
+<body>
+
+    <!-- Header -->
+    <header>
+        <div class="top-nav p-2 bg-dark text-white-50">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6 text-lg-left text-sm-center">
+                        <span>Contact for delivery: (+244) 921 538 972</span>
+                    </div>
+                    <div class="col-lg-6 text-lg-right text-sm-center">
+                        <span>hamburgaria@gmail.com</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <nav class="navbar-expand-lg navbar-light p-0 bg-padrao-2">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-4">
+                        <a class="navbar-brand text-left bg-warning p-4 shadow" href="#">Hamburgaria</a>
+                        <button class="navbar-toggler float-sm-right border-0" type="button" data-toggle="collapse"
+                            data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                            aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                    </div>
+                    <div class="col-lg-8">
+                        <div class="collapse navbar-collapse float-lg-right" id="navbarSupportedContent">
+                            <ul class="menu navbar-nav mt-3">
+                                <li class="nav-item active">
+                                    <a class="nav-link " href="#"><i class="fas fa-home"></i> Home</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#"><i class="fas fa-utensils"></i> Menu</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#"><i class=" fas fa-address-book"></i> Cardapio
+                                        Promocional</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#"><i class="fab fa-forumbee"></i> Forum</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#"><i class="fas fa-phone"></i> Contactos</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </nav>
+    </header>
+    <!-- End Header -->
+
+    <!-- Fundo // Será um carrosel -->
+    <div class="fundo text-white">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 ">
+                    <h1 class="text-uppercase">Hambúrguer Artesanal</h1>
+                    <h1 class="text-uppercase">Com carne de verdade</h1>
+                    <button class="btn bg-warning p-3 border-0 text-uppercase mt-2 rounded-0" data-toggle="modal"
+                        data-target=".encomenda">Encomendar agora</button>
+                </div>
+                <div class="col-lg-6 text-right">
+                    <img src="#" alt="" title="Hamburguer">
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End Fundo -->
+
+    <!-- Hamburguer Menu -->
+    <div class="menu-hamburguer mt-4 mb-4">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <h2 class="text-warning mb-4 mt--4">Menu</h2>
+                </div>
+
+                <div class="col-lg-6 mt-4">
+                    <div class="col-lg-12 p-4 bg-white photo-3">
+                        <!-- Preçário -->
+                        <div class="preco mt--4 bg-warning p-2 col-lg-3 shadow-sm h4 text-center text-white">1200.Kz
+                        </div>
+                        <!-- End Preçário -->
+                        <!-- Referencia -->
+                        <div class="row">
+                            <div class="col-lg-12 photo-3-bottom-120">
+                                <h1 class="text-uppercase ">2 for <span class="text-warning">1</span>
+                                </h1>
+                                <h3 class="text-uppercase text-white">Choose meal every sunday for a lower price <span
+                                        class="text-warning">1</span>
+                                </h3>
+                            </div>
+                            <div class="col-lg-12 mt-4 photo-3-bottom-320">
+                                <button class="mt-4 btn-sm btn btn-danger text-white rounded-0"><s>950.Kz</s> </button>
+                            </div>
+                        </div>
+                        <!-- End Referencia -->
+                    </div>
+                </div>
+
+                <div class="col-lg-6 mt-4">
+                    <div class="col-lg-12 bg-white p-4 mb-4 photo-1">
+                        <!-- Preçário -->
+                        <div class="preco mt--4 bg-warning p-2 col-lg-3 shadow-sm h4 text-center text-white">800.Kz
+                        </div>
+                        <!-- End Preçário -->
+                        <!-- Referencia -->
+                        <div class="row">
+                            <div class="col-lg-6 m--4">
+                                <h4 class="text-uppercase text-white">Hamburguer Meal Of The <span
+                                        class="text-warning">Day</span>
+                                </h4>
+                            </div>
+                            <div class="col-lg-12 mt-4">
+                                <button class="mt-4 btn-sm btn btn-danger text-white rounded-0"><s>950.Kz</s> </button>
+                            </div>
+                        </div>
+                        <!-- End Referencia -->
+                    </div>
+
+                    <br>
+
+                    <div class="col-lg-12 bg-white  p-4 mt-4 photo-2">
+                        <!-- Preçário -->
+                        <div class="preco mt--4 bg-warning p-2 col-lg-3 shadow-sm h4 text-center text-white">1000.Kz
+                        </div>
+                        <!-- End Preçário -->
+                        <!-- Referencia -->
+                        <div class="row">
+                            <div class="col-lg-6 m--4">
+                                <h4 class="text-uppercase text-white">Hamburguer Meal Of The <span
+                                        class="text-warning">Day</span>
+                                </h4>
+                            </div>
+                            <div class="col-lg-12 mt-4">
+                                <button class="mt-4 btn-sm btn btn-danger text-white rounded-0"><s>1150.Kz</s>
+                                </button>
+                            </div>
+                        </div>
+                        <!-- End Referencia -->
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End Menu hambúrguer -->
+
+    <!-- Cardapio Promocional -->
+    <div class="cardapio-promocional mt-4 bg-danger mb-4 pb-4" style="margin-top: 150px !important">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <h2 class="text-warning mt-4">Cardapio Promocional</h2>
+                </div>
+            </div>
+
+            <div class="row mt-4">
+                <div class="col-lg-4">
+                    <div class="col-lg-12 p-4 cardapio-1">
+                        <div class="mt-4">
+                            <h4 class="mt-4 text-white">Hamburguer</h4>
+                            <span class="btn btn-warning">900.Kz <sup class="text-dark"><s>1000.kz</s> </sup></span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-8">
+                    <div class="col-lg-12 p-4 cardapio-2">
+                        <div class="mt-4">
+                            <h4 class="mt-4 text-white">Hamburguer 3 tempos</h4>
+                            <span class="btn btn-warning">900.Kz <sup class="text-dark"><s>1000.kz</s> </sup></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row mt-4">
+                <div class="col-lg-8">
+                    <div class="col-lg-12 p-4 cardapio-3">
+                        <div class="mt-4">
+                            <h4 class="mt-4 text-white">Hamburguer 3 tempos</h4>
+                            <span class="btn btn-warning">900.Kz <sup class="text-dark"><s>1000.kz</s> </sup></span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="col-lg-12 p-4 cardapio-4">
+                        <div class="mt-4">
+                            <h4 class="mt-4 text-white">Hamburguer Simples</h4>
+                            <span class="btn btn-warning">900.Kz <sup class="text-dark"><s>1000.kz</s> </sup></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <br>
+    </div>
+    <!-- End Cardapio Promocional -->
+
+    <!-- Leve em casa -->
+    <div class="leve-para-casa mt-4 mb-4">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <h2 class="text-warning mt-4">Leve em casa</h2>
+                    <span>Temos os seguintes hamburguer disponíveis para tu levares em casa , veja a ilustração.</span>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-lg-8">
+                    <ul class="list-group list-group-flush col-lg-12 mt-4">
+                        <li class="list-group-item">Cras justo odio</li>
+                        <li class="list-group-item">Dapibus ac facilisis in</li>
+                        <li class="list-group-item">Morbi leo risus</li>
+                        <li class="list-group-item">Porta ac consectetur ac</li>
+                        <li class="list-group-item">Vestibulum at eros</li>
+                    </ul>
+                </div>
+
+                <div class="col-lg-4 mt-4">
+                    <img src="assets/img/mulher.jpg" class="col-lg-12" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End Leve em casa -->
+
+    <!-- Contactos -->
+    <div class="contactos mb-4 pb-4">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 pt-4 pb-4">
+                    <h2 class="text-warning">Contactos</h2>
+                    <span class="text-white">A melhor forma se chegar até nós é seguires os passos indicado no
+                        mapa.</span>
+                </div>
+                <div class="col-lg-8 ">
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3942.5864326885326!2d13.226185215022005!3d-8.824865392743224!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1a51f3ac36ed9949%3A0xc224b397643607dc!2sStand%20Maianga!5e0!3m2!1spt-PT!2sao!4v1592042615501!5m2!1spt-PT!2sao"
+                        width="100%" height="450" frameborder="0" style="border:0;" allowfullscreen=""
+                        aria-hidden="false" tabindex="0"></iframe>
+                </div>
+
+                <div class="col-lg-4">
+                    <div class="col-lg-12">
+                        <form action="">
+                            <div class="row">
+                                <div class="form-group text-white col-lg-12">
+                                    <input type="text" placeholder="Insira o seu nome" class="form-control col-lg-12">
+                                </div>
+                                <div class="form-group text-white col-lg-12">
+                                    <input type="email" placeholder="Insira o seu email" class="form-control col-lg-12">
+                                </div>
+                                <div class="form-group text-white col-lg-12">
+                                    <input type="tel" placeholder="Insira o seu nº telefone"
+                                        class="form-control col-lg-12">
+                                </div>
+                                <div class="form-group text-white col-lg-12">
+                                    <textarea name="" class="form-control" id=""
+                                        placeholder="Deixe a sua mensagem"></textarea>
+                                </div>
+                                <div class="form-group text-white col-lg-12">
+                                    <input type="submit" value="Enviar Mensagem"
+                                        class="form-control  col-lg-12 btn btn-outline-light">
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End Contactos -->
+
+    <!-- Modal -->
+
+    <div class="modal fade encomenda" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog modal-lg modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <span class="modal-title" id="exampleModalLabel">Faça a sua encomenda</span>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+
+                <!-- Modal -->
+                <div class="modal-body">
+                    <form action="">
+                        <div class="row">
+                            <div class="form-group col-lg-4">
+                                <small>Nome Completo : <sup class="text-danger">*</sup></small>
+                                <input type="text" class="form-control" placeholder="Informe o seu nome">
+                            </div>
+                            <div class="form-group col-lg-4">
+                                <small>Nº de Bilhete de Identidade : <sup class="text-danger">*</sup></small>
+                                <input type="text" class="form-control" placeholder="000000000LUA" maxlength="14">
+                            </div>
+                            <div class="form-group col-lg-4">
+                                <small>Munícipio : <sup class="text-danger">*</sup></small>
+                                <select name="" id="" class="form-control">
+                                    <option value="">Cazenga</option>
+                                    <option value="">Viana</option>
+                                </select>
+                            </div>
+                            <div class="form-group col-lg-4">
+                                <small>Comuna : <sup class="text-danger">*</sup></small>
+                                <input type="text" class="form-control" placeholder="Hoje-ya-henda">
+                            </div>
+                            <div class="form-group col-lg-4">
+                                <small>Rua : <sup class="text-danger">*</sup></small>
+                                <input type="text" class="form-control" placeholder="Hoje-ya-henda">
+                            </div>
+                            <div class="form-group col-lg-4">
+                                <small>Telefone : <sup class="text-danger">*</sup></small>
+                                <input type="tel" class="form-control" placeholder="921 538 972" maxlength="9">
+                            </div>
+                            <div class="form-group col-lg-12">
+                                <small>Produto : <sup class="text-danger">*</sup></small>
+                                <select name="" id="" class="form-control">
+                                    <option value="">Hamburguer Duplo Combo</option>
+                                    <option value="">Hamburguer Simples</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-lg-4">
+                                <div class="form-group">
+                                    <input type="submit" value="Encomendar" class="btn btn-warning text-dark rounded-0">
+                                </div>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+                <!-- End Modal -->
+            </div>
+        </div>
+    </div>
+    <!-- End Modal de Encomenda -->
+
+
+    <!-- Footer -->
+    <footer class="footer-content bg-dark mt--4 pt-4" style="margin-top: -24px">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 pt-4 pb-4">
+                    <h5 class="text-warning">Quem Somos</h5>
+                    <p class="text-justify mt-4">Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                        Officiis
+                        tenetur
+                        optio praesentium.</p>
+                </div>
+                <div class="col-lg-4 pt-4 pb-4">
+                    <h5 class="text-warning">Sejamos Sóciais</h5>
+                    <div class="mt-4">
+                        <a href="" class="btn border-warning rounded-circle">
+                            <i class="fab fa-facebook-f text-warning "></i>
+                        </a>
+                        <a href="" class="btn border-warning rounded-circle">
+                            <i class="fab fa-twitter text-warning"></i>
+                        </a>
+                        <a href="" class="btn border-warning rounded-circle">
+                            <i class="fab fa-instagram text-warning"></i>
+                        </a>
+                        <a href="" class="btn border-warning rounded-circle">
+                            <i class="fab fa-github text-warning"></i>
+                        </a>
+                        <a href="" class="btn border-warning rounded-circle">
+                            <i class="fab fa-whatsapp text-warning"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-lg-4 pt-4 pb-4">
+                    <h5 class="text-warning">Contacte-nós</h5>
+                    <div class="mt-4">
+                        <ul class="list-group col-lg-12">
+                            <li class="">
+                                <i class="fas fa-location-arrow text-warning"></i> Munícipio : Cazenga
+                            </li>
+                            <li class="">
+                                <i class=" fas fa-phone text-warning"></i> Telefone : +244 921 538 972
+                            </li>
+                            <li class="">
+                                <i class=" fas fa-mail-bulk text-warning"></i> E-mail : pedromakengo@gmail.com
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <div class="pt-2 pb-2 bg-padrao-2">
+        <div class="container">
+            <div class="row">
+                <span class="text-center m-auto"> 2020 © Hamburgaria theme by <a href="#"
+                        class="text-warning">MakeSoft</a></span>
+            </div>
+        </div>
+    </div>
+    <!-- End Footer -->
+
+
+
+
+
+
+
+    <!-- Jquery -->
+    <script src="assets/js/jquery-3.2.1.min.js"></script>
+    <!-- Bootstrap -->
+    <script src="assets/js/bootstrap.js"></script>
+    <!-- Wizard form -->
+    <script src="assets/js/jquery.smartWizard.js"></script>
+    <!-- My script -->
+    <script src="assets/js/makeSoft.js"></script>
+</body>
+
+</html>
